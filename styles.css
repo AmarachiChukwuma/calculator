@@ -28,9 +28,9 @@ input{
     margin-bottom: 15px;
     color: white;
 }
-/* input .display{
+input .display{
    outline-color: white;
-} */
+}
 .button{
     width: 85px;
     height: 70px;
@@ -39,6 +39,7 @@ input{
     font-style: bold;
     text-align: center;
     cursor: pointer;
+    outline-color: black;
     background: gray;
 }
 .button:hover{
