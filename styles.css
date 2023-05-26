@@ -9,15 +9,6 @@
     width: 355px;
     padding: 10px;
     margin: 10%;
-    /* display: block;
-    justify-content: center;
-    align-items: center; */
-}
-
-.wrap{
-    display: block;
-    justify-content: center;
-    align-items: center;
 }
 
 input{
@@ -29,7 +20,7 @@ input{
     color: white;
 }
 input .display{
-    outline-color: white;
+   outline-color: white;
 }
 .button{
     width: 85px;
@@ -44,7 +35,6 @@ input .display{
 .button:hover{
     color: black;
 }
-
 .button2{
     width: 85px;
     height: 70px;
