@@ -46,6 +46,13 @@ input .display{
 }
 
 .button2{
+    width: 85px;
+    height: 70px;
+    position: relative;
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+    cursor: pointer;
     background: orange;
 }
 
