@@ -15,7 +15,10 @@
 }
 
 .wrap{
-    
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
 
 input{
     font-size: 25px;
