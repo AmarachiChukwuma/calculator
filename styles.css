@@ -39,7 +39,6 @@ input .display{
     font-style: bold;
     text-align: center;
     cursor: pointer;
-    outline-color: black;
     background: gray;
 }
 .button:hover{
