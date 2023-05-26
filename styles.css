@@ -45,6 +45,10 @@ input .display{
     color: black;
 }
 
+.button2{
+    background: orange;
+}
+
 .equal{
     width: 170px;
     height: 70px;
