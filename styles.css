@@ -5,22 +5,28 @@
     scroll-behavior: none;
 }
 .wrap .main .cau{
-    height: 500px;
+    height: 500px; 
     width: 355px;
-    padding: 10px;
+    padding: 8px;
     margin: 10%;
+}
+.main{
+   
+    /* padding: 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 input{
     font-size: 25px;
     padding: 10px;
     text-align: right;
-    border-radius: 15px;
+    
+    border-radius: 20px;
     margin-bottom: 15px;
     color: white;
-}
-input .display{
-   outline-color: white;
 }
 .button{
     width: 85px;
@@ -30,20 +36,10 @@ input .display{
     font-style: bold;
     text-align: center;
     cursor: pointer;
-    background: gray;
+    background: rgb(112, 104, 104);
 }
 .button:hover{
     color: black;
-}
-.button2{
-    width: 85px;
-    height: 70px;
-    position: relative;
-    font-size: 25px;
-    font-style: bold;
-    text-align: center;
-    cursor: pointer;
-    background: orange;
 }
 
 .equal{
@@ -54,21 +50,17 @@ input .display{
     cursor: pointer;
     font-size: 25px;
 }
-@media screen and (max-width: 967px) {
-    .wrap .main .cau{
-        padding: 2px;
-        padding-left: 0;
-        /* display: block;
-        justify-content: center;
-        align-items: center; */
-
-        height: 500px;
-        width: 355px;
-    }
+.equal:hover{
+    color: black;
 }
-@media screen and (max-width: 789px){
-    .wrap .main .cau{
-        flex: 0;
-        padding: 0;
+@media screen and (max-width: 896px) {
+    .main{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 300px;
+       /* margin-right: 8rem; */
+       height: 500px; 
+       width: 500px;
     }
 }
